@@ -33,7 +33,7 @@ export default function ListaTarefas(){
         setTarefa({...tarefa, [name]: value})
     }
 
-    const removeTarefa = (id: Number)=>{
+    const removeTarefa = (id: number)=>{
         setTarefas(tarefas.filter(t=> t.id  !== id))
     }
 

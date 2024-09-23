@@ -1,10 +1,10 @@
 export type TarefaProps = {
     tarefa: string,
-    id: Number
+    id: number
 }
 
 export type RemoveProps = {
-    remove: (tit:Number)=> void,
+    remove: (tit:number)=> void,
 }
 
 export type ActionsProps = {
